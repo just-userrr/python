@@ -7,16 +7,16 @@ Version: 2.0
 
 This programm counts discriminant
 """
-import os
-from termcolor import colored
-from colorama import Fore, Back, Style
-import math
-
 print("") # для отступа
 
+import os
 # автоматическая установка всех необходимых модулей
 os.system('pip3 install termcolor')
 os.system('pip3 install colorama')
+
+from termcolor import colored
+from colorama import Fore, Back, Style
+import math
 
 # входные данные
 a = int(input( Back.YELLOW + Fore.BLACK + "Введите а: " ))
