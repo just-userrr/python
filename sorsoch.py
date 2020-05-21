@@ -1,11 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Result of sor/soch
-
-Version: 2.2.2
-
-Created by Erasyl_Seralyuly
+Эта программа выводит оценки по СОР/СОЧ
 """
 from colorama import Fore, Back, Style, init
 init()
