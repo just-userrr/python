@@ -1,24 +1,14 @@
 #!usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Autor: Erasyl_Seralyuly
-
-Version: 2.0
-
-This programm counts discriminant
+Эта программа выведет дискриминант. Выводит неправильно, зато выглядит красиво!
 """
-print("") # для отступа
-
-import os
-# автоматическая установка всех необходимых модулей
-os.system('pip3 install termcolor')
-os.system('pip3 install colorama')
-
 from termcolor import colored
 from colorama import Fore, Back, Style
 import math
 
 # входные данные
+print("") # для отступа
 a = int(input( Back.YELLOW + Fore.BLACK + "Введите а: " ))
 b = int(input( Back.YELLOW + Fore.BLACK + "Введите b: " ))
 c = int(input( Back.YELLOW + Fore.BLACK + "Введите c: " ))
