@@ -1,11 +1,7 @@
 #/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Author: Erasyl_Seralyuly
-
-Version: no-version, гениально же ведь
-
-Это чтобы установить необходимые модули( termcolor, colorama ) для m-discriminant.py и discriminant.py
+Это чтобы установить необходимые модули( termcolor, colorama ) для других программ, которые требуют этих модулей
 """
 import os # модуль для управления с команадами в терминале
 
