@@ -94,16 +94,16 @@ else:
 	print("\n\n") # для отступа
 
 	# годовая
-	if res >= 85 and res <=100:
+	if res >= 85 and res <= 100:
 		print(colored( "В итоговой Вы получили " + str(int(res)) + " процентов!", 'green', attrs=['bold'] ))
 		print(colored( "Оценка: 5! Поздравляю!\n\n\n", 'green', attrs=['bold'] ))
-	elif res >= 65 and res <=84:
+	elif res >= 65 and res <= 84:
 		print(colored( "В итоговой Вы получили " + str(int(res)) + " процентов!", 'green', attrs=['dark'] ))
 		print(colored( "Оценка: 4! Поздравляю!\n\n\n", 'green', attrs=['dark'] ))
 	elif res >= 40 and res <= 64:
 		print(colored( "В итоговой Вы получили " + str(int(res)) + " процентов!", 'yellow', attrs=['bold'] ))
 		print(colored( "Оценка: 3! Поздравляю!\n\n\n", 'yellow', attrs=['bold'] ))
-	elif res >= 0 and res <=39:
+	elif res >= 0 and res <= 39:
 		print(colored( "В итоговой Вы получили " + str(int(res)) + " процентов!", 'red', attrs=['bold'] ))
 		print(colored( "Оценка: 2! Поздравляю!\n\n\n", 'red', attrs=['bold'] ))
 	else:
