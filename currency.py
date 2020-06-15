@@ -6,7 +6,7 @@
 from termcolor import colored
 
 print("")
-option = int(input(colored( "Что хотите вычислить?:\n1) USD -> KZT;\n2) KZT -> USD\nВведите цифру варианта: ", 'white', attrs=['bold'])))
+option = int(input(colored( "Что хотите вычислить?:\n1) USD -> KZT;\n2) KZT -> USD\nВведите цифру варианта: ", 'white', attrs=['bold', 'dark'])))
 print("")
 
 if option == 1:
