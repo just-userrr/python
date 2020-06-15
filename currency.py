@@ -1,7 +1,7 @@
 #/usd/bin/env python
 # -*- coding: utf-8 -*-
 """
-Эта программа ковертер валют. Он может принять только USD и KZT.
+Эта программа конвертер валют. Он может принять только USD и KZT.
 """
 from termcolor import colored
 
