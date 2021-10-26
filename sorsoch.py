@@ -9,11 +9,21 @@ init()
 print( "\033[1m\033[37m" )
 
 # максимальный балл
-mball = int(input( "Максимальный балл: " ))
+mball = input( "Максимальный балл: " )
 
 # баллы, которую я получил
-tball = int(input( "Сколько ты получил баллов: " ))
+tball = input( "Сколько ты получил баллов: " )
 print( "" )
+
+# работа с операндами для упрощения
+# максимальный балл
+mball = mball.split("+")
+mball = map(int, mball)
+mball = sum(mball)
+# баллы, которую я получил
+tball = tball.split("+")
+tball = map(int, tball)
+tball = sum(tball)
 
 # вычисление
 result = (tball * 100) / mball
