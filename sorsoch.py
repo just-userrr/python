@@ -29,7 +29,7 @@ tball = sum(tball)
 result = (tball * 100) / mball
 
 # выходные данные
-result_text = "Ты получил " + str( int(result) ) + " процентов"
+result_text = "Суммарно " + str(tball) + "/" + str(mball) + " баллов\n" + "Ты получил " + str( int(result) ) + " процентов"
 # итоговые оценки
 if result >= 85 and result <= 100:
 	print( "\033[2m\033[32m{}".format( result_text ) )
